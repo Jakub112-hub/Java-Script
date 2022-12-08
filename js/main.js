@@ -40,5 +40,9 @@ console.log('------')
 
 
 const numbers = [0.5, 4,'abc']
+const names =  ['lisa', 'lily', 'Adam', 'przemek']
 
 numbers.forEach(number => console.log(number *number))
+
+const bigNames = names.map(name => name.toUpperCase())
+console.log(bigNames);
