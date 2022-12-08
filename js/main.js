@@ -35,3 +35,10 @@ test2()
 test()
 
 console.log(`NAME poza FUNKCJĄ - ${name}`);
+
+console.log('------')
+
+
+const numbers = [0.5, 4,'abc']
+
+numbers.forEach(number => console.log(number *number))
