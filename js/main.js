@@ -46,3 +46,10 @@ numbers.forEach(number => console.log(number *number))
 
 const bigNames = names.map(name => name.toUpperCase())
 console.log(bigNames);
+
+
+const showBigNames = (name) => {
+    console.log(name.toUpperCase());
+}
+
+names.forEach(showBigNames);     CALLBACK
