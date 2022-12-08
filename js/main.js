@@ -1,20 +1,37 @@
-const arrowFunction = () => {
+
+
+
+// ZAKRESY
+
+const name = 'Lisa'
+
+const test = () => {
+    const name = 'Lily'
+    console.log (`NAME W FUNKCJI - ${name}`);
+
+    const age = 23
+    console.log(age);
+
+const test2 = () => {
+    console.log('---');
+    console.log(name);
+    console.log(age);
+    console.log('---');
+const color = 'blue'
+console.log(color);
+ 
+
+ 
+}
+test2()
+
 
 }
 
 
-function test(name){
-    console.log(`mam na imię ${name}`)
-}
-test(`Klaudia`)
 
 
 
-const test2 = (name,age) => console.log(name,age)
+test()
 
-test2('Klaudia',23)
-
-
-const days = ['poniedziałek', 'wtorek', 'sroda']
-
-const days2 = days.forEach(day => console.log(day))
+console.log(`NAME poza FUNKCJĄ - ${name}`);
