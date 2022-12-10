@@ -1,61 +1,22 @@
 
 
+let score 
 
-// ZAKRESY
+const add = (x, y) => {
+    score = x+ y 
 
-const name = 'Lisa'
-
-const test = () => {
-    const name = 'Lily'
-    console.log (`NAME W FUNKCJI - ${name}`);
-
-    const age = 23
-    console.log(age);
-
-const test2 = () => {
-    console.log('---');
-    console.log(name);
-    console.log(age);
-    console.log('---');
-const color = 'blue'
-console.log(color);
- 
-
- 
-}
-test2()
-
-
+    if(score % 2 === 0){
+        console.log(`Liczba ${score} jest parzysta`)
+    }
+    else{
+        console.log(`Liczba ${score} jest nie parzysta`)
+    }
 }
 
+add(10,10)
 
 
 
 
-test()
-
-console.log(`NAME poza FUNKCJĄ - ${name}`);
-
-console.log('------')
 
 
-const numbers = [0.5, 4,'abc']
-const names =  ['lisa', 'lily', 'Adam', 'przemek']
-
-numbers.forEach(number => console.log(number *number))
-
-const bigNames = names.map(name => name.toUpperCase())
-console.log(bigNames);
-
-
-const showBigNames = (name) => {
-    console.log(name.toUpperCase());
-}
-
-
-
-names.forEach(showBigNames);      
-
-console.log('------')
-
-names.forEach(name => console.log(name.toUpperCase()));
