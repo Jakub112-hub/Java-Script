@@ -52,4 +52,10 @@ const showBigNames = (name) => {
     console.log(name.toUpperCase());
 }
 
-names.forEach(showBigNames);     CALLBACK
+
+
+names.forEach(showBigNames);      
+
+console.log('------')
+
+names.forEach(name => console.log(name.toUpperCase()));
