@@ -1,22 +1,4 @@
+const liLIst = document.createElement('li')
 
-
-let score 
-
-const add = (x, y) => {
-    score = x+ y 
-
-    if(score % 2 === 0){
-        console.log(`Liczba ${score} jest parzysta`)
-    }
-    else{
-        console.log(`Liczba ${score} jest nie parzysta`)
-    }
-}
-
-add(10,10)
-
-
-
-
-
-
+liLIst.textContent = 'czesc'
+console.log(liLIst);
